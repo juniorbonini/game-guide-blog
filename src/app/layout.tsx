@@ -3,6 +3,7 @@ import "../theme/index.css";
 import { LayoutProps } from "../interfaces/Layout/props";
 import { Container } from "../components/Container";
 import { Header } from "../components/Header";
+import { Footer } from "../components/Footer";
 
 export const metadata: Metadata = {
   title: "Game Guide Hub - ",
@@ -14,9 +15,10 @@ export default function RootLayout({ children }: LayoutProps) {
     <html lang="pt-BR">
       <body>
         <Container>
-           <Header />
-          {children}
-          </Container>
+          <Header />
+          <main className="flex-1 flex flex-col">{children}</main>
+          <Footer />
+        </Container>
       </body>
     </html>
   );
