@@ -1,5 +1,7 @@
-import { Header } from "../components/Header";
+import { Spinner } from "../components/Spinner";
 
 export default function Home() {
-  return <div></div>;
+  return <div>
+    <Spinner />
+  </div>;
 }
