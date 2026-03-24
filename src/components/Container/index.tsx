@@ -9,7 +9,7 @@ export function Container({ children, containerClass }: ContainerProps) {
         containerClass,
       )}
     >
-      <div className="py-4">{children}</div>
+      {children}
     </div>
   );
 }
