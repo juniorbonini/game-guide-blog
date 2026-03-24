@@ -1,7 +1,8 @@
-import { Spinner } from "../components/Spinner";
+import { Container } from "../components/Container";
+import { Message } from "../components/Message";
 
 export default function Home() {
-  return <div>
-    <Spinner />
-  </div>;
+  return (
+    <Message />
+  );
 }

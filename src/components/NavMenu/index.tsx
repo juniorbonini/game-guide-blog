@@ -9,7 +9,7 @@ const navLinks = [
 export function NavMenu() {
   return (
     <>
-      <nav className="hidden md:flex items-center gap-1.5">
+      <nav className="hidden md:flex items-center gap-0.5">
         {navLinks.map((link) => (
           <Link
             key={link.href}

@@ -9,7 +9,9 @@ export function Container({ children, containerClass }: ContainerProps) {
         containerClass,
       )}
     >
-      {children}
+      <div className="mx-auto max-w-7xl">
+        {children}
+      </div>
     </div>
   );
 }
