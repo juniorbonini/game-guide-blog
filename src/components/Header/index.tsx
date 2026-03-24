@@ -1,10 +1,11 @@
-import { Gamepad2 } from "lucide-react";
+import { Gamepad2, Search } from "lucide-react";
 import Link from "next/link";
 import { NavMenu } from "../NavMenu";
+import { Input } from "../Input";
 
 export function Header() {
   return (
-    <header className="top-0 z-50 border-b border-primary/10">
+    <header className="top-0 z-50 px-20 border-b border-primary/10">
       <div className="">
         <div className="flex h-16 items-center justify-between gap-4">
           <Link href="/" className="flex items-center gap-2 shrink-0">
@@ -16,6 +17,8 @@ export function Header() {
             </span>
           </Link>
           <NavMenu />
+
+          <Input />
         </div>
       </div>
     </header>

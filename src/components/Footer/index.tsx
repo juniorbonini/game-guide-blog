@@ -24,7 +24,7 @@ export function Footer() {
           </span>
           <p>Produzido por </p>
           <Link
-            href="/"
+            href="https://github.com/juniorbonini/game-guide-blog"
             target="_blank"
             className="relative px-1 text-gray hover:text-primary font-medium transition-colors group"
           >
